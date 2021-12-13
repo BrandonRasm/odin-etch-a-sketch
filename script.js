@@ -1,7 +1,13 @@
 const container = document.querySelector(".container");
+const clearButton = document.querySelector("button");
 CreateNewGrid(container);
 
-
+clearButton.addEventListener("click", () => {
+    while (container.firstChild) {
+        container.removeChild(container.firstChild);
+    }
+    prompt("TEST");
+});
 
 
 function CreateNewGrid(container) {
