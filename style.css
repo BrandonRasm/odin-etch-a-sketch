@@ -9,7 +9,13 @@
     background-color: lightgray;
     height: 16px;
     width: 16px;
+    
 }
+
+.grid:hover{ 
+    background-color: black;
+}
+
 body  { 
 
     display: flex;
