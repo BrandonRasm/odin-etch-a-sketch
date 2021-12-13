@@ -7,9 +7,9 @@ for (let i = 0; i < 16; i++) {
         temp.classList.add("hovered");
     });
 
-    temp.addEventListener("mouseout", function unhover() {
-        temp.classList.remove("hovered");
-    }); 
+    // temp.addEventListener("mouseout", function unhover() {
+    //     temp.classList.remove("hovered");
+    // }); 
 
     container.appendChild(temp);
 }
