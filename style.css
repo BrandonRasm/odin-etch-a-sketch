@@ -1,6 +1,5 @@
 .container  { 
     display: flex;
-    height: 64px;
     width: 64px;
     flex-wrap: wrap;
 }
@@ -17,6 +16,8 @@ body  {
 
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .hovered { 
