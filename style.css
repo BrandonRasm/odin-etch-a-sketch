@@ -1,14 +1,13 @@
 .container  { 
     display: flex;
-    width: 64px;
     flex-wrap: wrap;
+    width: 512px;
 }
 
 .grid  { 
     background-color: lightgray;
-    height: 16px;
-    width: 16px;
-    
+    width: 32px;
+    height: 32px;
 }
 
 

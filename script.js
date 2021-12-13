@@ -11,7 +11,7 @@ clearButton.addEventListener("click", () => {
 
 
 function CreateNewGrid(container) {
-    for (let i = 0; i < 16; i++) {
+    for (let i = 0; i < 256; i++) {
         const temp = document.createElement("div");
         temp.classList.add("grid");
 
